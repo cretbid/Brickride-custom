@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BrickRide Customs</title>
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:Arial, sans-serif;
+    }
+
+    body{
+        background:#f5f5f5;
+        color:#333;
+    }
+
+    header{
+        background:#ffcc00;
+        padding:20px;
+        text-align:center;
+    }
+
+    header h1{
+        font-size:3rem;
+    }
+
+    .hero{
+        text-align:center;
+        padding:80px 20px;
+        background:linear-gradient(to right,#ffcc00,#ff9900);
+        color:white;
+    }
+
+    .hero h2{
+        font-size:2.5rem;
+        margin-bottom:20px;
+    }
+
+    .hero p{
+        font-size:1.2rem;
+        max-width:700px;
+        margin:auto;
+    }
+
+    .btn{
+        display:inline-block;
+        margin-top:25px;
+        padding:15px 30px;
+        background:white;
+        color:#ff9900;
+        text-decoration:none;
+        border-radius:8px;
+        font-weight:bold;
+    }
+
+    .section{
+        padding:60px 20px;
+        max-width:1100px;
+        margin:auto;
+    }
+
+    .cards{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+        margin-top:30px;
+    }
+
+    .card{
+        background:white;
+        padding:25px;
+        border-radius:10px;
+        box-shadow:0 0 10px rgba(0,0,0,0.1);
+        text-align:center;
+    }
+
+    .upload-form{
+        background:white;
+        padding:30px;
+        border-radius:10px;
+        margin-top:20px;
+    }
+
+    input, textarea{
+        width:100%;
+        padding:12px;
+        margin:10px 0;
+        border:1px solid #ccc;
+        border-radius:5px;
+    }
+
+    button{
+        background:#ff9900;
+        color:white;
+        border:none;
+        padding:12px 25px;
+        border-radius:5px;
+        cursor:pointer;
+    }
+
+    footer{
+        text-align:center;
+        padding:20px;
+        background:#333;
+        color:white;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>BrickRide Customs</h1>
+    <p>Your Real Car. Built in Bricks.</p>
+</header>
+
+<section class="hero">
+    <h2>Turn Your Car Into a Custom Brick Model</h2>
+    <p>
+        Upload photos of your vehicle and our designers will create a custom
+        brick-building set based on your exact car model, color, and modifications.
+    </p>
+    <a href="#order" class="btn">Start Your Build</a>
+</section>
+
+<section class="section">
+    <h2>How It Works</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>📸 Upload Photos</h3>
+            <p>Send photos of your vehicle from multiple angles.</p>
+        </div>
+
+        <div class="card">
+            <h3>🧱 Custom Design</h3>
+            <p>We create a digital brick model matching your car.</p>
+        </div>
+
+        <div class="card">
+            <h3>🚗 Receive Your Set</h3>
+            <p>Get building instructions and all required pieces.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="order">
+    <h2>Request a Custom Build</h2>
+
+    <div class="upload-form">
+        <form>
+            <input type="text" placeholder="Full Name" required>
+
+            <input type="email" placeholder="Email Address" required>
+
+            <input type="text" placeholder="Vehicle Year, Make & Model"
+                   required>
+
+            <input type="file" multiple>
+
+            <textarea rows="5"
+                placeholder="Tell us about modifications, custom wheels, decals, etc."></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Why Choose BrickRide?</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>100% Custom</h3>
+            <p>Every set is designed specifically for your vehicle.</p>
+        </div>
+
+        <div class="card">
+            <h3>Collector Quality</h3>
+            <p>Perfect for enthusiasts, gifts, and car shows.</p>
+        </div>
+
+        <div class="card">
+            <h3>Detailed Instructions</h3>
+            <p>Easy-to-follow building guide included with every set.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 BrickRide Customs | Build Your Dream Car in Bricks</p>
+</footer>
+
+</body>
+</html>
+
