@@ -5,34 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BrickRide Customs</title>
 <style>
-    *{
-        margin:0;
+    *{ margin:0;
         padding:0;
         box-sizing:border-box;
-        font-family:Arial, sans-serif;
-    }
+        font-family:Arial, sans-serif;}
 
-    body{
-        background:#f5f5f5;
-        color:#333;
-    }
+    body{background:#f5f5f5;color:#333;}
 
-    header{
-        background:#ffcc00;
-        padding:20px;
-        text-align:center;
-    }
+    header{background:#ffcc00;padding:20px;text-align:center;}
 
-    header h1{
-        font-size:3rem;
-    }
+    header h1{font-size:3rem;}
 
-    .hero{
-        text-align:center;
-        padding:80px 20px;
-        background:linear-gradient(to right,#ffcc00,#ff9900);
-        color:white;
-    }
+    .hero{text-align:center;padding:80px 20px;
+        background:linear-gradient(to right,#ffcc00,#ff9900);color:white;}
 
     .hero h2{
         font-size:2.5rem;
